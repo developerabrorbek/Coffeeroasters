@@ -1,0 +1,206 @@
+/* main section */
+
+main {
+  margin-bottom: 168px;
+}
+
+.main__inner {
+  background-image: url(../images/about-main.png);
+  border-radius: 10px;
+  padding: 137px 85px;
+}
+
+.main__info {
+  width: 445px;
+}
+
+.main__info-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  color: #fefcf7;
+  margin-bottom: 24px;
+}
+
+.main__info-subtitle {
+  color: #fefcf7;
+}
+
+/* // main section */
+
+/* commitment section */
+
+.commitment {
+  margin-bottom: 200px;
+}
+
+.commitment__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 90px 85px 90px;
+}
+
+.commitment__inner::after {
+  content: "";
+  background: url(../images/about-commitment.png);
+  position: absolute;
+  width: 445px;
+  height: 520px;
+  display: inline-block;
+  border-radius: 8px;
+  left: 85px;
+  top: 0;
+}
+
+.commitment-img {
+  border-radius: 8px;
+}
+
+.commitment__info {
+  width: 540px;
+}
+
+.commitment__info-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  color: #333d4b;
+  margin-bottom: 32px;
+}
+
+.commitment__info-subtitle {
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* // commitment section */
+
+/* quality section */
+
+.quality {
+  margin-bottom: 168px;
+}
+
+.quality__inner {
+  position: relative;
+  background: url(../images/quality-back.png);
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  padding: 100px 85px 176px;
+}
+
+.quality__inner::after {
+    content: "";
+    background: url(../images/about-quality.png);
+    position: absolute;
+    right: 85px;
+    top: -78px;
+    border-radius: 8px;
+    width: 445px;
+    height: 474px;
+    display: inline-block;
+}
+.quality__info {
+  width: 540px;
+}
+
+.quality__info-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+
+.quality__info-subtitle {
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* // quality section */
+
+/* headquarter section */
+
+.headquarter {
+    margin-bottom: 168px;
+}
+
+.headquarter__inner {
+    padding: 0 85px;
+}
+
+.headquarter__title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-bottom: 72px;
+}
+
+.headquarter__lists {
+    display: flex;
+    justify-content: space-between;
+    width: 1045px;
+}
+
+.headquarter__list {
+    width: 285px;
+}
+
+.headquarter__list:nth-child(1)::before{
+    content: "";
+    background: url(../images/UK.svg);
+    width: 41px;
+    height: 49px;
+    display: inline-block;
+    margin-bottom: 46px;
+}
+
+.headquarter__list:nth-child(2)::before{
+    content: "";
+    background: url(../images/canada.svg);
+    width: 52px;
+    height: 49px;
+    display: inline-block;
+    margin-bottom: 46px;
+}
+
+.headquarter__list:nth-child(3)::before{
+    content: "";
+    background: url(../images/australia.svg);
+    width: 49px;
+    height: 44px;
+    display: inline-block;
+    margin-bottom: 46px;
+}
+
+.headquarter__list-title {
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+
+.locations {
+    list-style: none;
+}
+
+.location a {
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+text-decoration: none;
+}
+
+
+
+
+
+
+/* // headquarter section */

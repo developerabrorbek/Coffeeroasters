@@ -1,0 +1,256 @@
+
+/* Main section */
+
+.main {
+  margin-bottom: 136px;
+}
+
+.main__inner {
+  background: url(../images/main-back.png);
+  padding: 117px 702px 146px 85px;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+
+.main-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  width: 444px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 56px;
+}
+
+.create {
+  background: #0e8784;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+  padding: 15px 31px 16px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+/* // Main section */
+
+/* Product sectioin */
+
+.product {
+  margin-bottom: 200px;
+}
+
+.product__inner {
+  background-image: url(../images/product-back.png);
+  background-repeat: no-repeat;
+  background-position: 84px 0;
+  padding: 126px 84px 0;
+}
+
+.product-items {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-item {
+  list-style: none;
+  text-align: center;
+}
+
+.product-title {
+  margin: 72px 0 24px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.product-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
+
+/* // Product section */
+
+/* Quality section */
+
+.quality {
+  margin-bottom: 200px;
+}
+
+.quality__inner {
+  background-image: url(../images/quality-back.png);
+  background-repeat: no-repeat;
+  padding: 100px 84px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quality-info {
+  width: 540px;
+  text-align: center;
+  margin-bottom: 86px;
+}
+
+.quality-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+
+.quality-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality-cards {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.quality-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 48px 48px;
+  list-style: none;
+  background: #0e8784;
+  border-radius: 8px;
+}
+
+.quality-card__subtitle,
+.quality-card__title {
+  color: #fefcf7;
+}
+
+/* // Quality section */
+
+/* Works section */
+
+.works {
+  margin-bottom: 200px;
+}
+
+.works__inner {
+  padding: 0 84px;
+}
+
+.title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 95px;
+}
+
+.works-items {
+  display: grid;
+  grid-template-columns: repeat(3, 285px);
+  column-gap: 95px;
+  padding-top: 82px;
+  margin-bottom: 64px;
+}
+
+.span {
+    width: 791px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oval1 {
+    position: absolute;
+    z-index: 2;
+}
+
+.oval2 {
+    position: absolute;
+    left: 380px;
+    z-index: 2;
+}
+
+.oval3 {
+    position: absolute;
+    left: 760px;
+    z-index: 2;
+}
+
+
+.line {
+    position: absolute;
+    z-index: -1;
+    display: inline-block;
+}
+
+.works-item {
+  list-style: none;
+}
+
+.works-item p {
+    text-align: left;
+}
+
+.works-rule {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+  margin-bottom: 38px;
+}
+
+.works-title {
+  width: 225px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 42px;
+}
+
+/* // Works section */
+
